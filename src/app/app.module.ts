@@ -19,6 +19,7 @@ import { InsertactorComponent } from './insertactor/insertactor.component';
 import { AgePipe } from './age.pipe';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { GenrePipe } from './genre.pipe';
 
 const appRoutes: Routes = [
   {path: 'listactors', component: ListactorsComponent},
@@ -45,7 +46,8 @@ const appRoutes: Routes = [
     ListmoviesComponent,
     DeletemoviesComponent,
     InsertactorComponent,
-    AgePipe
+    AgePipe,
+    GenrePipe
   ],
   imports: [
     BrowserModule,
